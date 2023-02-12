@@ -77,9 +77,9 @@ const uniqueId = generateUniqueID()
 
   loader(messageDiv);
 
-  // fetch data from the server
+  // fetch data from the server https://chatwithjd.onrender.com/
 
-  const response = await fetch('https://chatwithjd.onrender.com/', {
+  const response = await fetch('https://chatwithcodex.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
